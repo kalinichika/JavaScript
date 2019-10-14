@@ -1,0 +1,168 @@
+body {
+  background: url(http://ilyakhasanov.ru/images/background/136.png) repeat;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+  background-color: rgb(255, 130, 151);
+  color: white;
+  padding: 0.5em;
+  font-family: "Consolas";
+}
+.slideshow-container {
+  max-width: 385px;
+  position: relative;
+  margin: auto;
+  top: 10px;
+}
+img {
+  width: 300px;
+  height: 400px;
+}
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: rgba(212, 155, 155);
+  background-color: rgba(252, 252, 252, 0.493);
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+}
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 0px 7px 7px 0px;
+}
+.prev {
+  left: 0;
+  border-radius: 7px 0px 0px 7px;
+}
+.prev:hover,
+.next:hover {
+  color: white;
+  background-color: rgba(187, 173, 173, 0.836);
+}
+.text {
+  width: 300px;
+  color: white;
+  background-color: rgba(172, 187, 201, 0.514);
+  font-size: 15px;
+  padding: 2px;
+  position: absolute;
+  left: 50%;
+  margin-left: -150px;
+}
+.numbertext {
+  color: white;
+  background-color: rgba(172, 187, 201, 0.705);
+  position: absolute;
+  width: 40px;
+  font-size: 12px;
+  padding: 2px;
+  top: 0;
+  left: 50%;
+  margin-left: -20px;
+}
+.dot {
+  position: relative;
+  top: -10px;
+  cursor: pointer;
+  height: 8px;
+  width: 8px;
+  margin: 0 2px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+.active,
+.dot:hover {
+  background-color: #e94e82;
+}
+.only-button {
+  width: 150px;
+  height: 50px;
+  background: linear-gradient(180deg, rgb(252, 189, 198), lightcyan);
+  color: black;
+  padding: 0.5em;
+  text-align: center;
+  font-family: "Arial";
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.4em;
+  border-radius: 4px;
+  border-block-color: cyan;
+}
+.only-button:hover {
+  border-block-width: 5px;
+  border-block-color: white;
+}
+.pane {
+  width: 70%;
+  margin: auto;
+  text-align: left;
+  font-weight: 100;
+  font-size: 18px;
+  line-height: 1.4;
+  background-color: rgba(241, 241, 241, 0.89);
+  border-color: aqua;
+  border: 2px;
+  border-radius: 10px;
+}
+h3 {
+  background-color: rgb(252, 164, 178);
+  color: white;
+  padding: 0.5em;
+  font-family: "Consolas";
+  font-size: 22px;
+}
+p {
+  padding: 10px;
+  height: 200px;
+  overflow: auto;
+}
+.remove-button {
+  float: right;
+  margin: 50 px;
+  background: lightcyan;
+  color: black;
+  text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 15px;
+  font-weight: 600;
+  border-radius: 2px;
+  border-block-color: cyan;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}

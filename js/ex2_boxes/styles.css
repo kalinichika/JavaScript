@@ -1,0 +1,11 @@
+.items .item{
+  width: 100px;
+  height: 100px;
+  background: pink;
+  margin: 20px;
+  padding: 20px;
+}
+
+.items .item-active{
+  border: 3px solid lightcoral;
+}

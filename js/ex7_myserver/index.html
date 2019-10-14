@@ -1,0 +1,105 @@
+<!DOCTYPE >
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Отрывки из книг</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <h1>Отрывки из книг</h1>
+
+    <li><button class="only-button">Кнопочка</button></li>
+
+      <!--СЛАЙД-ШОУ><!-->
+    <div class="slideshow-container">
+      <div class="mySlides fade">
+        <div class="numbertext">1 / 8</div>
+        <img src="img/1.jpg" />
+        <div class="text">Поющие в терновнике</div>
+      </div>
+      <div class="mySlides fade">
+        <div class="numbertext">2 / 8</div>
+        <img src="img/2.jpg" />
+        <div class="text">Гроза</div>
+      </div>
+      <div class="mySlides fade">
+        <div class="numbertext">3 / 8</div>
+        <img src="img/3.jpg" />
+        <div class="text">Мастер и Маргарита</div>
+      </div>
+      <div class="mySlides fade">
+        <div class="numbertext">4 / 8</div>
+        <img src="img/4.jpg" />
+        <div class="text">Алиса в стране чудес</div>
+      </div>
+      <div class="mySlides fade">
+        <div class="numbertext">5 / 8</div>
+        <img src="img/5.jpg" />
+        <div class="text">Гарри Поттер и философский камень</div>
+      </div>
+      <div class="mySlides fade">
+        <div class="numbertext">6 / 8</div>
+        <img src="img/6.jpg" />
+        <div class="text">Игра престолов</div>
+      </div>
+      <div class="mySlides fade">
+        <div class="numbertext">7 / 8</div>
+        <img src="img/7.jpg" />
+        <div class="text">Преступление и наказание</div>
+      </div>
+      <div class="mySlides fade">
+        <div class="numbertext">8 / 8</div>
+        <img src="img/8.jpg" />
+        <div class="text">Война и мир</div>
+      </div>
+
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+
+    <div class="dots">
+      <span class="dot" onclick="currentSlide(1)"></span>
+      <span class="dot" onclick="currentSlide(2)"></span>
+      <span class="dot" onclick="currentSlide(3)"></span>
+      <span class="dot" onclick="currentSlide(4)"></span>
+      <span class="dot" onclick="currentSlide(5)"></span>
+      <span class="dot" onclick="currentSlide(6)"></span>
+      <span class="dot" onclick="currentSlide(7)"></span>
+      <span class="dot" onclick="currentSlide(8)"></span>
+    </div>
+    <div class="pane">
+      <button class="remove-button">[x]</button>
+      <h3>Колин Маккалоу - "Поющие в терновнике"</h3>
+      <p>
+        Есть такая легенда - о птице, что поёт лишь один раз за всю жизнь, но
+        зато прекраснее всех на свете... Однажды она покидает свое гнездо и
+        летит искать куст терновника и не успокоится, пока не найдёт... Среди
+        колючих ветвей запевает она песню и бросается грудью на самый длинный,
+        самый острый шип. И, возвышаясь над несказанной мукой, так поет, умирая,
+        что этой ликующей песне позавидовали бы и жаворонок, и соловей...
+      </p>
+    </div>
+    <div class="pane">
+      <button class="remove-button">[x]</button>
+      <h3>Михаил Булгаков - "Мастер и Маргарита"</h3>
+      <p>
+        Она несла в руках отвратительные, тревожные желтые цветы. Черт их знает,
+        как их зовут, но они первые почему-то появляются в Москве. И эти цветы
+        очень отчетливо выделялись на черном ее весеннем пальто. Она несла
+        желтые цветы! Нехороший цвет.
+      </p>
+    </div>
+    <div class="pane">
+      <button class="remove-button">[x]</button>
+      <h3>Александр Островски - "Гроза"</h3>
+      <p>
+        Отчего люди не летают?... Я говорю, отчего люди не летают так, как
+        птицы? Знаешь, мне иногда кажется, что я птица. Когда стоишь на горе,
+        так тебя и тянет лететь. Вот так бы разбежалась, подняла руки и
+        полетела.
+      </p>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>

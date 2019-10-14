@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Task1</title>
+  </head>
+  <body>
+    <link rel="stylesheet" href="style.css" />
+    <img src="IMG_2875_copy.jpg" height = "400">
+      <div class="profile">
+        <h1>Первая страница</h1>
+      </div>
+      <form>
+        <fieldset class="left-window">
+          <legend>Пользователь
+          </legend>
+            <p>
+              <label for="name">Ваше имя</label>
+              <input type="name" name="username" id='userName' required/>
+            </p>
+            <p>
+              <label for="password">Пароль</label>
+              <input type="password" name="password1"  id='password' required/>
+            </p>
+            <p class=passInfo> Пароль должен содержать не менее 6 символов. Должен влючать минимум 2 цифры, заглавную буквю, спец.символ. Три одинаковых подряд идущих символа - недопустимы.</p>
+            <p>
+              <label for="confirm">Подтвердить</label> 
+              <input type="password" name="confirm"  id='confirm' required/>
+            </p>
+            <button type="submit" class="submit">Отмена</button>
+            <button type="submit" class="submit" id="ok-password" disabled=true>ОК</button>
+          </fieldset>
+          <p></p>
+
+          <fieldset class="right-window">
+            <legend>Анкета</legend>
+              <p>
+                <label for="sex">Ваш пол:</label>
+                <input type="radio" name="sex" value="m" checked="checked"/>М
+                <input type="radio" mame="sex" value="f" />Ж
+              </p>
+              <p>
+                <label for="mes">Какой мессенджер используете?</label>
+                <input type="checkbox" name="mes" value="vk" checked="checked" />Вконтакте
+                <input type="checkbox" name="mes" value="telegram" />Телеграм
+                <input type="checkbox" name="mes" value="viber" />Viber
+                <input type="checkbox" name="mes" value="whatsapp" />WhatsApp
+              </p>
+              <p>
+                <label for"date">Какое сегодня число?</label>
+                <input type="date">
+              </p>
+              <p>
+                <label for="choise">Ваш банк</label>
+                <select name="choice">
+                  <option name="sber">Сбербанк</option>
+                  <option name="raif">Райфайзен</option>
+                  <option name="tink">Тинькофф</option>
+                  <option name="alfa">Альфа</option>
+                </select>
+              </p>
+              <p>
+                <label for"comments">Как настроение?</label>
+                <br />
+                <textarea name="comments" rows="5" cols="50">Напишите свои мысли...</textarea>
+             </p>
+              <p>
+                Не годится для анкеты, просто пример!!!!!
+              </p>
+              <p>
+                <label for"poisk">Поиск</label>
+                <input type="search" name="poisk" placeholder="Купить слона">
+                <input type="submit" class="submit" value="Искать">
+              </p>
+              <button type="submit" class="submit">Отмена</button>
+            <button type="submit" class="submit">ОК</button>
+          </fieldset>
+      </form>
+    </div>
+  </fieldset>  
+  <p>Автор:
+  <a href="https://www.instagram.com/kalinichika/" alt="Ссылка на страницу">Калинина Виктория</a>
+  </p>
+  <script src="app2.js"></script>
+  </body>
+</html>

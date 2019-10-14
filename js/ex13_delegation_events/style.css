@@ -1,0 +1,46 @@
+body{
+  max-width:900px;
+  margin: 20px;
+}
+th {
+  font-size: 20px;
+  background-color: cornflowerblue;
+  color: white;
+  text-align: center;
+}
+td {
+  width: 100px;
+  height: 100px;
+  background-color: azure;
+  text-align: center;
+  border: 0.3px solid cornflowerblue;
+}
+.highlight{
+  background-color: pink;
+}
+
+button, input{
+  margin: 5px;
+  margin-top: 20px;
+  padding: 5px 10px;
+  background-color: cornflowerblue;
+  color:white;
+  font-size: 18px;
+  font-family: 'Times New Roman', Times, serif;
+  border: 2px solid pink;
+}
+button:hover, inut:hover{
+  background-color: blue;
+}
+div{  
+  margin: 20px;
+  padding:20px;
+  text-align: center;
+  border: 1px solid skyblue;
+  font-size: 18px;
+  font-family: 'Times New Roman', Times, serif;
+  display:inline-block;
+}
+.counter{
+  display:inline-block;
+}

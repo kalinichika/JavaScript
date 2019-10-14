@@ -1,0 +1,84 @@
+.wrapper {
+  font-size: 20px;
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
+  margin: 0 auto;
+}
+/* шапка */
+.header {
+  width: 100%;
+  background-color: rgb(255, 0, 106);
+  padding: 30px 40px;
+  padding: 20px;
+  text-align: center;
+  color: white;
+}
+.header:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+input {
+  width: 50%;
+  float: left;
+  margin-left: 10%;
+  font-size: 18px;
+  font-family: "Times New Roman", Times, serif;
+  padding: 10px;
+  border: none;
+}
+.addBtn {
+  background-color: #a32851;
+  color: white;
+  padding: 10px;
+  width: 25%;
+  float: left;
+  text-align: center;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.addBtn:hover {
+  background-color: rgba(0, 211, 200, 0.795);
+}
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+ul li {
+  text-align: left;
+  cursor: pointer;
+  position: relative;
+  padding: 12px 8px 12px 40px;
+  background: rgb(253, 207, 218);
+  font-size: 18px;
+  transition: 0.4s;
+  /* запрет выделения текста */
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+ul li:nth-child(odd) {
+  background: #ffe8f1;
+}
+ul li:hover {
+  background: rgb(255, 146, 173);
+}
+ul li.checked {
+  background: rgb(238, 126, 154);
+  color: #fff;
+  text-decoration: line-through;
+}
+
+/* кнопка закрытия */
+.close {
+  position: absolute;
+  right: 0;
+  top: 0;
+  padding: 12px 16px 12px 16px;
+}
+.close:hover {
+  background-color: #c53b69;
+  color: white;
+}
