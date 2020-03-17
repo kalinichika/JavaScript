@@ -1,4 +1,4 @@
-let person = [
+let item = [
   {
     firstName: "Vika",
     lastName: "Kalinina"
@@ -6,7 +6,7 @@ let person = [
   {
     firstName: "Rita",
     lastName: "Malinina",
-    "person-address": {
+    "item-address": {
       country: "Russia",
       city: "Moscow",
       street: "Festivalnaya",
@@ -17,18 +17,18 @@ let person = [
 
 str = `
 <ul>
-  <li>First name : ${person[1].firstName}</li>
-  <li>Last name : ${person[1].lastName}</li>
+  <li>First name : ${item[1].firstName}</li>
+  <li>Last name : ${item[1].lastName}</li>
 </ul>
 `;
 
-//console.log(whoIs(person[0]));
+//console.log(whoIs(item[0]));
 
-function whoIs(person) {
-  return `Hello, ${person.firstName} ${person.lastName}`;
+function whoIs(item) {
+  return `Hello, ${item.firstName} ${item.lastName}`;
 }
 
-//console.log(whoIs(person[1]));
+//console.log(whoIs(item[1]));
 
 //console.log(str);
 //document.body.innerHTML = str;
@@ -41,7 +41,7 @@ const sum = function(...args) {
   return sum;
 };
 
-//console.log(sum('\n',whoIs(person[0]),'\n', whoIs(person[1])));
+//console.log(sum('\n',whoIs(item[0]),'\n', whoIs(item[1])));
 
 (function() {})(); //самовызыающаяся
 
