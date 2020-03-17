@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[` 1`] = `
+Array [
+  100,
+  30,
+  500,
+  750,
+  350,
+  600,
+  750,
+]
+`;
